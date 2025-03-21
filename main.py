@@ -9,7 +9,7 @@ import pandas as pd
 
 AUDIO_FILE_PATH = sys.argv[1]
 OUTPUT_FOLDER_PATH = sys.argv[2]
-MODEL = "large" # "tiny", "base", "small", "medium", "large"
+MODEL = sys.argv[3] # "tiny", "base", "small", "medium", "large"
 
 print(f"Checking file and folder...")
 
