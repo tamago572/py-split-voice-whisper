@@ -2,13 +2,13 @@
 
 ## Overview
 
-.wavの音声ファイルを、whisperによって文字起こしさせ、一節ごとに分割します。
+.wavの音声ファイルを、whisperによって文字起こしさせ、一節ごとにファイルを分割します。
 
-音MAD等にどうぞ。
+動画編集や音MAD、RVC、so-vits-svcのモデルトレーニングにもどうぞ。
 
 OpenAIのWhisperを使用していますので、処理はローカルのみで行います。
 
-音声処理のAIモデルとして、tiny, base, small, medium, largeがありますが、デフォルトでは一番性能が良いlargeを使用しています。マシンスペックやお好みで調整してください。
+音声処理のAIモデルとして、tiny, base, small, medium, largeがありますが、デフォルトでは一番性能が良いlargeを使用しています。マシンスペック等によって調整してください。
 
 ## Requirements
 
@@ -18,6 +18,8 @@ $ pip install -r requirements.txt
 によってインストールされるパッケージ。
 
 そしてffmpegがインストールされている必要があります。
+
+venvを作成し環境を分けることをオススメします。
 
 ## Usage
 
